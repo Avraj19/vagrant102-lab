@@ -22,9 +22,9 @@ vagrant up
 ```
 - Starts up VM server (will take some time)
 
-5. Running tests
+5. Running tests (do not ssh in machine, run in starter-code)
 ```bash
-cd environment/spec-tests
+cd tests/spec-tests
 rake spec
 ```
 - To initialise and perform set tests
